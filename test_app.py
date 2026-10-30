@@ -5,7 +5,7 @@ class TestApp(unittest.TestCase):
 
     def test_greet(self):
         result = greet("Saravanan")
-        self.assertEqual(result, "Hello, Saravanan!")
+        self.assertEqual(result, "Welcome, Saravanan! Welcome to DevOps.")
 
 if __name__ == "__main__":
     unittest.main()
